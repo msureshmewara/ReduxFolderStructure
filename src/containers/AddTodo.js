@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import {connect} from 'react-redux';
-
+import {addTodo} from '../actions'
 
 class AddTodo extends Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class AddTodo extends Component {
         };
     }
 addTodo = (text) => {
-this.props.dispatch({type: 'ADD_TODO', text})
+this.props.dispatch(addTodo(text))
 this.setState({text: ''});
 }
     render() {
