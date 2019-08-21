@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>F8L3ZVFVRZ.org.reactjs.native.example.ReduxFolderStructure</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>F8L3ZVFVRZ.org.reactjs.native.example.ReduxFolderStructure</string>
+	</array>
+</dict>
+</plist>
